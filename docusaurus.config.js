@@ -87,7 +87,10 @@ const config = {
                         dark: 'rgb(50, 50, 50)'
                     }
                 }
-            }
+            },
+            footer: {
+                copyright: `تمام حقوق برای شرکت سهمتو محفوظ میباشد.`,
+            },
         }),
     plugins: [require.resolve("docusaurus-plugin-image-zoom")],
 };
